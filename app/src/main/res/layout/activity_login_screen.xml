@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.hs140.splash.LoginScreen">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="48dp"
+                android:src="@drawable/loginlogo" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="64dp"
+                android:layout_marginRight="64dp"
+
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_action_user"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter Mobile Number"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="@color/white" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+            <EditText
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="64dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_action_lock"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Enter Password"
+
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="@color/white" />
+         <ViewW
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f9d7db" />
+
+            <Button
+                android:id="@+id/button_log"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="LOGIN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/login_button_bg"
+                android:clickable="true"
+                android:padding="10dp"
+
+                android:textColor="@color/colorPrimary" />
+
+
+             />
+            <Button
+                android:id="@+id/button_reg"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="SIGNUP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/login_signup"
+                android:clickable="true"
+                android:padding="10dp"
+
+                android:textColor="@color/colorPrimary" />
+
+
+            />
+       </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

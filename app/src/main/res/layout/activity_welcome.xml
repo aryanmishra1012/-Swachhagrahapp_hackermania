@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.hs140.splash.Welcome">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"
+        android:text="Welcome to Swachhagrah"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/loginlogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_comp"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/login_signup"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="Complain"
+            android:layout_marginRight="10dp"
+
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/button_rat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rating"
+            android:background="@drawable/login_signup"
+            android:clickable="true"
+            android:padding="10dp"
+
+            android:textColor="@color/colorPrimary" />/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_re"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/login_signup"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="Reward"
+            android:layout_marginRight="10dp"
+
+            android:textColor="@color/colorPrimary" />/>
+
+        <Button
+            android:id="@+id/button_fd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Feedback"
+            android:background="@drawable/login_signup"
+            android:clickable="true"
+            android:padding="10dp"
+
+            android:textColor="@color/colorPrimary" />/>
+    </LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

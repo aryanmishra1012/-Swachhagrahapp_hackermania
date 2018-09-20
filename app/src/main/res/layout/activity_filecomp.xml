@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB2"
+    tools:context="com.example.hs140.splash.FilecompActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:drawableLeft="@drawable/ic_action_complain"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="File Complain" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="Problem :" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Enter the problem "/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Description :" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="Enter the detail problem "
+            />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="Area of incident :" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:hint="Enter the problem "/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:text="Add Image :" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:srcCompat="@android:drawable/ic_input_add" />
+    </LinearLayout>>
+
+
+        <Button
+            android:id="@+id/filec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:background="@drawable/login_button_bg"
+            android:clickable="true"
+            android:padding="10dp"
+
+            android:textColor="@color/colorPrimary"
+            android:text="File complain" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
